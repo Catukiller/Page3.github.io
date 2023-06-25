@@ -1,0 +1,122 @@
+
+
+body {
+    color: #fff;
+    background-color: #000000;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 30px;
+}
+
+h4{
+    color: #000000;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#f7f7f7;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+nav a {
+    color: #0a0a0a;
+    padding: 35px;
+    margin-left: 150px;
+    margin-top: 25px;
+    text-align: none;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: rgb(133, 139, 139);
+}
+
+.logo{
+    padding-top: 10px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+    width: 115px;
+}
+s
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.x{
+    display:flex;
+}
+.h1{
+    grid-row: 1/1;
+    grid-column: 2/2;
+    width: 100%;
+}
+
+.p1{
+    grid-row: 2/2;
+}
+
+.cascos{
+    width: 1500px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.text1{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 500px;
+
+}
+
+.guantes{
+    width: 1500px;
+    height: 600px;
+}
+
+.text2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 500px;
+}
+.zapatillas{
+    width: 1500px;
+    height: 600px;
+}
+
+.text3{
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 500px;
+}
+
+
+footer{
+    background-color: #ececec;
+    padding: 25px 50px;
+    margin-top: 100px;
+}
+
+.social img {
+    padding-top: 25px;
+    width: 60px;
+
+}
+
+.c{
+    text-align: right;
+    color: #000000;
+    display: inline-block;
+    margin-left: 600px;
+}
+   
+
+  
